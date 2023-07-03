@@ -1,0 +1,36 @@
+.box-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5),
+              0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+  background-color: transparent;
+  border: none;
+}
+
+#home-quote{
+  background: url(../img/bg-quote.jpg) center center;
+  background-size: cover;
+}
+
+@media(max-width: 767px){
+  #home-quote .display-4{
+    font-size: 2.5rem;
+  }
+  body{
+    padding-top: 0;
+  }
+  .fixed-top{
+    position: relative;
+  }
+}
+
+.pergunta{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lista-plano li{
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
