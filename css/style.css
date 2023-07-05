@@ -1,3 +1,7 @@
+body{
+  height: 100vh;
+}
+
 .box-shadow{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1),
               0 4px 8px 0 rgba(0, 0, 0, 0.1);
@@ -7,10 +11,6 @@
   display: none;
 }
 
-.footer-responsivo{
-  display: none;
-
-}
 
 @media(max-width: 600px){
 .stacks{
@@ -24,28 +24,28 @@
   .desktop{
     display: none;
   }
-  .footer-desktop{
-  display: none;
-  }
-  .footer-responsivo{
-    display: flex;
-  }
   .responsivo-pagina-inicial{
   display: flex;
   flex-direction: column;
   align-items: center;
+  h2{
+    margin-bottom: 10px;
+  }
   }
   #eu-resp{
     margin: 10px auto 10px auto;
     max-width: 180px;
     max-height: 180px;
   }
-}
+
+  .icon{
+    max-width: 40px;
+  }
 
 #icon-text{
   max-width: 2rem;
 }
-
+}
 .hero-img {
   background-image: url("/src/images/pfp_webp.webp");
   background-size: cover;
@@ -78,6 +78,8 @@
   }
 }
 
-.footer-desktop{
-  margin-top: 10.7vh;
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
