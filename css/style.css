@@ -11,13 +11,28 @@ body{
   display: none;
 }
 
+/*Formacao*/
+/* .detalhe{
+  content: '';
+  background: #0162CC;
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  left: 12vh;
+  top: 17vh;
+} */
 
-@media(max-width: 600px){
-.stacks{
-  display: flex;
-  overflow-y: auto;
-  max-width: 250px;
+.icon-formacao{
+  max-width: 10%;
 }
+
+@media(min-width: 400px) and (max-width: 1800px){
+  .footer1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 @media(max-width: 767px){
@@ -28,9 +43,6 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  h2{
-    margin-bottom: 10px;
-  }
   }
   #eu-resp{
     margin: 10px auto 10px auto;
@@ -45,6 +57,12 @@ body{
 #icon-text{
   max-width: 2rem;
 }
+
+/*Formacao*/
+.icon-formacao{
+  max-width: 5%;
+}
+
 }
 .hero-img {
   background-image: url("/src/images/pfp_webp.webp");
@@ -78,8 +96,5 @@ body{
   }
 }
 
-.footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+
+
