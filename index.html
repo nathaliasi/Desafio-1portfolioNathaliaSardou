@@ -13,13 +13,13 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light box-shadow">
     <a class="navbar-brand" href="index.html">
-      <h1>Nathalia.dev</h1>
+      <h1>Nathalia<span class="text-primary">.</span>dev</h1>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto mr-3">
         <li class="nav-item">
           <a class="nav-link" href="formacao.html">Formação</a>
         </li>
@@ -41,16 +41,18 @@
       <div class=" d-flex flex-column align-items-start align-self-center mb-3">
         <h2 id="h2" style="font-family: 'Courier New', Courier, monospace;">Desenvolvedora Front-End</h2>
         <p style="font-family: 'Courier New', Courier, monospace;">Oi, meu mome é Nathália, e eu adoro passar minhas horas codando<img id="icon-text" src="img/icon.png" alt="icon"> </p>
-        <p style="font-family: 'Courier New', Courier, monospace;">Fique a vontade para me conhecer um pouco mais navegando pelo site</p>
+        <p style="font-family: 'Courier New', Courier, monospace;">Fique à vontade para me conhecer um pouco mais navegando pelo site</p>
         <div class="Stacks mt-4">
           <div class="d-flex flex-row">
             <h3><small class="text-body-secondary">Stacks <span>|</span></small></h3>
-            <img class="icon" src="img/4373229_html5_logo_logos_icon.png" alt="html5">
-            <img class="icon" src="img/4202020_css3_html_logo_social_social media_icon.png" alt="css3">
-            <img class="icon" src="img/4373213_js_logo_logos_icon.png" alt="javascript">
-            <img class="icon" src="img/1174949_js_react js_logo_react_react native_icon.png" alt="react">
-            <img class="icon" src="img/4375066_logo_sass_icon.png" alt="sass">
-            <img class="icon" src="img/9074220_typescript_icon.png" alt="typescript">
+            <div class="stacks-imgs">
+              <img class="icon" src="img/4373229_html5_logo_logos_icon.png" alt="html5">
+              <img class="icon" src="img/4202020_css3_html_logo_social_social media_icon.png" alt="css3">
+              <img class="icon" src="img/4373213_js_logo_logos_icon.png" alt="javascript">
+              <img class="icon" src="img/1174949_js_react js_logo_react_react native_icon.png" alt="react">
+              <img class="icon" src="img/4375066_logo_sass_icon.png" alt="sass">
+              <img class="icon" src="img/9074220_typescript_icon.png" alt="typescript">
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +64,7 @@
       <div class="d-flex flex-column align-items-start align-self-center">
         <h2 class="text-primary" id="h2" style="font-family: 'Courier New', Courier, monospace;">Desenvolvedora Front-End</h2>
         <p style="font-family: 'Courier New', Courier, monospace;">Oi, meu mome é Nathália, e eu adoro passar minhas horas codando <img src="img/icon.png" alt="o"></p>
-        <p style="font-family: 'Courier New', Courier, monospace;">Fique a vontade para me conhecer um pouco mais navegando pelo site</p>
+        <p style="font-family: 'Courier New', Courier, monospace;">Fique à vontade para me conhecer um pouco mais navegando pelo site</p>
         <div class="d-flex flex-row mt-3 mb-3">
           <h3><small class="text-body-secondary">Stacks <span>|</span></small></h3>
           <img src="img/4373229_html5_logo_logos_icon.png" alt="html5">
@@ -82,19 +84,19 @@
   <footer class=" footer1 footer">
         <div class="bg-dark text-white pt-5 container-fluid">
           <div class="container">
-            <div class="row d-flex justify-content-center">
-              <div class="col-md-4 col-6">
+            <div class="d-flex justify-content-center">
+              <div class="col-md-4 col-6 ">
                 <h4 class="h6">DADOS DE CONTATO</h4>
                 <ul class="list-unstyled">
-                  <li>nathaliatrab@outlook.com</li>
+                  <address><a href="mailto:nathaliatrab@outlook.com" class="text-break">nathaliatrab@outlook.com</a> </address>
                   <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5522998982554" target="_blank">Whatsapp</a></li>
                 </ul>
               </div>
-              <div class="col-md-2 col-6">
+              <div class="col-md-2 col-6 ml-5">
                 <h4 class="h6">REDES SOCIAIS</h4>
                 <ul class="list-unstyled text-secundary grid gap-3">
-                  <li class="ms-1"><a href="#" class="btn btn-outline-secondary mb-2 btn-sm">Linkedin</a></li>
-                  <li><a href="#" class="btn btn-outline-secondary mb-2 btn-sm">Github</a></li>
+                  <li class="ms-1"><a href="https://www.linkedin.com/in/nath%C3%A1lia-sardou-b7a102179/" class="btn btn-outline-secondary mb-2 btn-sm" target="_blank">Linkedin</a></li>
+                  <li><a href="https://github.com/nathaliasi" class="btn btn-outline-secondary mb-2 btn-sm" target="_blank">Github</a></li>
                 </ul>
               </div>
             </div>
@@ -106,6 +108,9 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.js"></script>
 </body>
 
 </html>

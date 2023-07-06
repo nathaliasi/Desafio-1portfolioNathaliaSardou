@@ -2,6 +2,10 @@ body{
   height: 100vh;
 }
 
+h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .box-shadow{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1),
               0 4px 8px 0 rgba(0, 0, 0, 0.1);
@@ -9,30 +13,6 @@ body{
 
 .responsivo-pagina-inicial{
   display: none;
-}
-
-/*Formacao*/
-/* .detalhe{
-  content: '';
-  background: #0162CC;
-  width: 10px;
-  height: 8px;
-  display: block;
-  position: absolute;
-  left: 12vh;
-  top: 17vh;
-} */
-
-.icon-formacao{
-  max-width: 10%;
-}
-
-@media(min-width: 400px) and (max-width: 1800px){
-  .footer1{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
 }
 
 @media(max-width: 767px){
@@ -57,13 +37,47 @@ body{
 #icon-text{
   max-width: 2rem;
 }
-
-/*Formacao*/
-.icon-formacao{
-  max-width: 5%;
+}
+@media(min-width: 1100px) and (max-width: 2000px){
+  .desktop{
+    padding: 5vh 0 10vh 0;
+   }
+   .footer1{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+   }
+}
+@media(min-width: 768px) and (max-width: 920px){
+  .desktop{
+    padding: 15vh 0 10vh 0;
+   }
+   .footer1{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+   }
 }
 
+@media(min-width: 412px) and (max-width: 414px){
+  .footer1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
+
+@media(min-width: 200px) and (max-width: 360px){
+  h3{
+    font-size: large;
+  }
+  .stacks-imgs{
+    display: flex;
+    overflow-y: auto;
+    max-width: 200px;
+  }
+}
+
 .hero-img {
   background-image: url("/src/images/pfp_webp.webp");
   background-size: cover;
